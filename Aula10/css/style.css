@@ -1,0 +1,189 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div { position: relative;
+}
+
+.Super-heróis{
+    width: 100%;
+    height: 80px;
+    background-color: #00669F;
+    box-sizing: 0;
+    margin: 0;
+    padding: 18px;
+    box-shadow: 0px 12px 11px -8px rgba(0, 0, 0, 0.58);
+    position: fixed;
+}
+.imagembatman{
+    border-radius: 12px;
+    display: inline-block;
+    position: relative;
+    box-sizing: 0;
+    margin: 86px;
+    padding: 0;
+
+}
+
+.imagemarlequina{
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.desconto20{
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 38px;
+    left: 0;
+    top: 0;
+    padding: 10px;
+}
+
+.iconebatman{
+    border-radius: 80px;
+    position: absolute;
+    top: 240px;
+    left: 210px;
+    z-index: 2;
+    background-image: url("/img/iconebatman.png");
+    width: 130px;
+    height: 130px;
+}
+
+.iconebatman img{
+    border-radius: 50%;
+}
+.iconearlequina{
+    border-radius: 80px;
+    position: absolute;
+    top:240px;
+    left: 675px;
+    background-image: url("/img/iconearlequina.png");
+    width: 130px;
+    height: 130px;
+    z-index: 2; 
+}
+
+.conteudo1{
+    background-color: #F3F3F3;
+    width: 374px;
+    height: 379px;
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #333333;
+    position: absolute;
+    top: 305px;
+    left: 86px;
+    padding-top: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: -1;
+}
+
+.conteudo2{
+    background-color: #F3F3F3;
+    width: 374px;
+    height: 379px;
+    display: inline-block;
+    position: absolute;
+    top: 305px;
+    padding-top: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.vermais1{
+background-color: #00669F;
+display: inline-block;
+width: 145px;
+height: 54px;
+margin: center;
+padding:18px 42px;
+box-sizing: border-box;
+color: white;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: normal;
+position: absolute;
+left: 670px;
+top: 600px;
+}
+
+.vermais2{
+    background-color: #00669F;
+    display: inline-block;
+    width: 145px;
+    height: 54px;
+    margin: center;
+    padding:18px 42px;
+    box-sizing: border-box;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    position: absolute;
+    left: 205px;
+    top: 600px;
+    }
+
+.titulo1{
+    position: absolute;
+    top: 300px;
+    left: 234px;
+    padding-top: 87px;
+    z-index: 1;
+    color: #333333;
+}
+
+.titulo2{
+    position: absolute;
+    top: 300px;
+    left: 680px;
+    padding-top: 87px;
+    z-index: 1;
+    color: #333333;
+}
+
+.vector1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.vector2{
+    position: absolute;
+    top: 100px;
+    left: 560px
+}
+
+.cards{
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+footer{
+        background-color: #00669F;
+        width: 100%;
+        height: 51px;
+        box-sizing: 0;
+        margin: 5px;
+        padding: 4px;
+        position: absolute;
+        bottom: 0px;
+        padding: 15px;
+        padding-left: 25px;
+        color: #F3F3F3;
+        border: solid 1px  black;
+}
